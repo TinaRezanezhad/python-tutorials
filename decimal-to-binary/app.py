@@ -1,11 +1,11 @@
 # algorithm
 #
-# 1. get a number from user
-# 2. divide the number by two
-# 3. if the quotient of the division doesn't equals to 1 print denominator and go to step 2
-# 4. otherwise print quotient
-# 5. Exit
-
+# 1. get "number" from user
+# 2. let "result" hold my final bits - it is initialized by an empty string
+# 3. while number > 0:
+#        result = result + remaining of (number / 2)
+#        number = number / 2
+# 4. output the reverse of the "result"
 
 # code
 
