@@ -3,8 +3,29 @@
 # get number as much as number value 
 # set a var for max value 
 # set a var for min value 
-# set a var for max value 
-# compare values with each other
+# set a var for max value
+# if i (first step in for) equal to zero so min and max = req_input
+# insert continue to prevent to execution of continue the loop
+# compare values and put in the variables
+# set if and elif for recognition the max and min value
+# print min and max value
+
+# string formatting
+# list
+
+### Zeinab
+number = int(input())
+numbers = list()
+for i in range (number):
+    numbers.append(int(input()))
+
+print("MAX: {0}".format(max(numbers)))
+print("MIN: {0}".format(min(numbers)))
+
+### Zeinab
+
+
+
 
 
 number = int(input())
