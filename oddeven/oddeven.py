@@ -6,8 +6,11 @@
 
 
 number = input()
-division = number %2
-if division == 0:
+remain = number %2
+if remain == 0:
     print('The number is even')
 else:
         print( 'The number is odd')
+
+
+# dar yek khat dar python
